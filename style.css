@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-/* Navigation */
+/*---------- Navigation ----------*/
 #nav-bar {
     position: sticky;
     top: 0;
@@ -40,4 +40,19 @@
     color: #555 !important;
     font-weight: 600;
     font-size: 16px;
+}
+
+/*---------- Slider ----------*/
+#slider {
+    width: 100%;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    bottom: initial !important;
 }
